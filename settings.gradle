@@ -1,0 +1,5 @@
+include ':app'
+include ':LibraryDialog'
+include ':heartlayout'
+include ':libbambuser-0.9.13'
+include ':LeonidsLib'

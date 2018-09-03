@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+        android:id="@+id/background_hook"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.bambuser.broadcaster.SurfaceViewWithAutoAR
+        android:id="@+id/PreviewSurfaceView"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        app:cropToParent="false" />
+
+    <Button android:id="@+id/BroadcastButton"
+        android:text="Broadcast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button android:id="@+id/SwitchCameraButton"
+        android:text="Switch camera"
+        android:layout_below="@id/BroadcastButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView android:id="@+id/ViewerStatus"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"/>
+
+    <TextView android:id="@+id/TalkbackStatus"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"/>
+
+    <Button android:id="@+id/TalkbackStopButton"
+        android:text="Stop talkback"
+        android:layout_alignParentRight="true"
+        android:layout_above="@id/TalkbackStatus"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <Button android:id="@+id/btnFire"
+        android:text="Fire Star"
+        android:layout_below="@id/SwitchCameraButton"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"/>
+
+    <ListView android:id="@+id/ChatListView"
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+        android:layout_above="@id/chatLayout"
+        android:cacheColorHint="@android:color/transparent"
+        android:dividerHeight="0px"
+        android:visibility="gone"
+        android:stackFromBottom="true"
+        android:listSelector="@android:color/transparent"
+        android:divider="@android:color/transparent"
+        android:background="#66000000"
+        android:transcriptMode="alwaysScroll" />
+
+    <tyrantgit.widget.HeartLayout
+        android:id="@+id/heart_layout"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        app:animLengthRand="300dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:id="@+id/chatLayout"
+        android:background="@drawable/chat_box_background"
+        android:layout_alignParentBottom="true">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/etMessage"
+            android:layout_weight="0.7"
+            android:layout_gravity="center_vertical"
+            android:background="@color/primary_light"
+            android:padding="5dp"
+            android:layout_marginLeft="5dp"/>
+
+        <ImageView
+            android:id="@+id/imgSend"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.12"
+            android:src="@drawable/ic_send_24dp" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:id="@+id/imgGiftCard"
+            android:src="@drawable/gift_icon"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.15"
+            android:contentDescription="TODO" />
+
+    </LinearLayout>
+
+    <com.wunderlist.slidinglayer.SlidingLayer
+        android:id="@+id/slidingLayer1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:elevation="2dip">
+        <!--slidingLayer:shadowDrawable="@drawable/sidebar_shadow"
+        slidingLayer:shadowSize="@dimen/shadow_size"
+        slidingLayer:offsetDistance="@dimen/offset_distance"
+        slidingLayer:previewOffsetDistance="@dimen/preview_offset_distance"
+        slidingLayer:stickTo="top|bottom|right|left"
+        slidingLayer:changeStateOnTap="true">-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonClose"
+                android:layout_gravity="right"
+                android:textColor="@android:color/white"
+                android:background="@android:color/transparent"
+                android:text="X"
+                android:padding="10dp"
+                android:textSize="30sp"
+                android:layout_weight="0.2"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/topContent"
+                android:layout_weight="0.5">
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="@color/primary_light"
+                android:layout_gravity="bottom"
+                android:gravity="bottom"
+                android:layout_weight="0.3">
+
+                <android.support.v7.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/rlGiftLayout"
+                    android:layout_margin="5dp"/>
+
+                <!-- <ImageView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:src="@drawable/gift1"/>-->
+
+            </RelativeLayout>
+        </LinearLayout>
+    </com.wunderlist.slidinglayer.SlidingLayer>
+
+</RelativeLayout>

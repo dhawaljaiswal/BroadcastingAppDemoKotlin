@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bambuser.exampleplayer.ExamplePlayerActivity">
+
+    <com.bambuser.broadcaster.SurfaceViewWithAutoAR
+        android:id="@+id/VideoSurfaceView"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <TextView android:id="@+id/PlayerStatusTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:textSize="20sp" />
+
+    <SeekBar android:id="@+id/PlayerVolumeSeekBar"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:progress="100"
+        android:max="100" />
+
+    <TextView android:id="@+id/BroadcastLiveTextView"
+        android:text="LIVE"
+        android:background="#FF0000"
+        android:textColor="#FFFFFF"
+        android:padding="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/PlayerVolumeSeekBar"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+    <TextView android:id="@+id/ViewerStatusTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:textSize="20sp" />
+
+</RelativeLayout>

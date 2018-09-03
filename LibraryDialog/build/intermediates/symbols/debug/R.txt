@@ -1,0 +1,17 @@
+int attr changeStateOnTap 0x7f040001
+int attr offsetDistance 0x7f040002
+int attr previewOffsetDistance 0x7f040003
+int attr shadowDrawable 0x7f040004
+int attr shadowSize 0x7f040005
+int attr stickTo 0x7f040006
+int id bottom 0x7f0c0001
+int id left 0x7f0c0002
+int id right 0x7f0c0003
+int id top 0x7f0c0004
+int[] styleable SlidingLayer { 0x7f040001, 0x7f040002, 0x7f040003, 0x7f040004, 0x7f040005, 0x7f040006 }
+int styleable SlidingLayer_changeStateOnTap 0
+int styleable SlidingLayer_offsetDistance 1
+int styleable SlidingLayer_previewOffsetDistance 2
+int styleable SlidingLayer_shadowDrawable 3
+int styleable SlidingLayer_shadowSize 4
+int styleable SlidingLayer_stickTo 5

@@ -1,0 +1,39 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Nandkishor's Data\MyWorkSpace\Kotlin\LiveBroadcastingDemo\LibraryDialog\src\main\AndroidManifest.xml:18:1-22:12
+INJECTED from D:\Nandkishor's Data\MyWorkSpace\Kotlin\LiveBroadcastingDemo\LibraryDialog\src\main\AndroidManifest.xml:18:1-22:12
+INJECTED from D:\Nandkishor's Data\MyWorkSpace\Kotlin\LiveBroadcastingDemo\LibraryDialog\src\main\AndroidManifest.xml:18:1-22:12
+INJECTED from D:\Nandkishor's Data\MyWorkSpace\Kotlin\LiveBroadcastingDemo\LibraryDialog\src\main\AndroidManifest.xml:18:1-22:12
+INJECTED from D:\Nandkishor's Data\MyWorkSpace\Kotlin\LiveBroadcastingDemo\LibraryDialog\src\main\AndroidManifest.xml:18:1-22:12
+INJECTED from D:\Nandkishor's Data\MyWorkSpace\Kotlin\LiveBroadcastingDemo\LibraryDialog\src\main\AndroidManifest.xml:18:1-22:12
+INJECTED from D:\Nandkishor's Data\MyWorkSpace\Kotlin\LiveBroadcastingDemo\LibraryDialog\src\main\AndroidManifest.xml:18:1-22:12
+	package
+		ADDED from D:\Nandkishor's Data\MyWorkSpace\Kotlin\LiveBroadcastingDemo\LibraryDialog\src\main\AndroidManifest.xml:18:11-48
+		INJECTED from D:\Nandkishor's Data\MyWorkSpace\Kotlin\LiveBroadcastingDemo\LibraryDialog\src\main\AndroidManifest.xml
+		INJECTED from D:\Nandkishor's Data\MyWorkSpace\Kotlin\LiveBroadcastingDemo\LibraryDialog\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Nandkishor's Data\MyWorkSpace\Kotlin\LiveBroadcastingDemo\LibraryDialog\src\main\AndroidManifest.xml
+		ADDED from D:\Nandkishor's Data\MyWorkSpace\Kotlin\LiveBroadcastingDemo\LibraryDialog\src\main\AndroidManifest.xml:18:1-22:12
+		INJECTED from D:\Nandkishor's Data\MyWorkSpace\Kotlin\LiveBroadcastingDemo\LibraryDialog\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Nandkishor's Data\MyWorkSpace\Kotlin\LiveBroadcastingDemo\LibraryDialog\src\main\AndroidManifest.xml:18:1-22:12
+	android:versionCode
+		INJECTED from D:\Nandkishor's Data\MyWorkSpace\Kotlin\LiveBroadcastingDemo\LibraryDialog\src\main\AndroidManifest.xml
+		ADDED from D:\Nandkishor's Data\MyWorkSpace\Kotlin\LiveBroadcastingDemo\LibraryDialog\src\main\AndroidManifest.xml:18:1-22:12
+		INJECTED from D:\Nandkishor's Data\MyWorkSpace\Kotlin\LiveBroadcastingDemo\LibraryDialog\src\main\AndroidManifest.xml
+application
+ADDED from D:\Nandkishor's Data\MyWorkSpace\Kotlin\LiveBroadcastingDemo\LibraryDialog\src\main\AndroidManifest.xml:20:5-19
+uses-sdk
+INJECTED from D:\Nandkishor's Data\MyWorkSpace\Kotlin\LiveBroadcastingDemo\LibraryDialog\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Nandkishor's Data\MyWorkSpace\Kotlin\LiveBroadcastingDemo\LibraryDialog\src\main\AndroidManifest.xml
+INJECTED from D:\Nandkishor's Data\MyWorkSpace\Kotlin\LiveBroadcastingDemo\LibraryDialog\src\main\AndroidManifest.xml
+INJECTED from D:\Nandkishor's Data\MyWorkSpace\Kotlin\LiveBroadcastingDemo\LibraryDialog\src\main\AndroidManifest.xml
+INJECTED from D:\Nandkishor's Data\MyWorkSpace\Kotlin\LiveBroadcastingDemo\LibraryDialog\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Nandkishor's Data\MyWorkSpace\Kotlin\LiveBroadcastingDemo\LibraryDialog\src\main\AndroidManifest.xml
+		ADDED from D:\Nandkishor's Data\MyWorkSpace\Kotlin\LiveBroadcastingDemo\LibraryDialog\src\main\AndroidManifest.xml
+		INJECTED from D:\Nandkishor's Data\MyWorkSpace\Kotlin\LiveBroadcastingDemo\LibraryDialog\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Nandkishor's Data\MyWorkSpace\Kotlin\LiveBroadcastingDemo\LibraryDialog\src\main\AndroidManifest.xml
+		ADDED from D:\Nandkishor's Data\MyWorkSpace\Kotlin\LiveBroadcastingDemo\LibraryDialog\src\main\AndroidManifest.xml
+		INJECTED from D:\Nandkishor's Data\MyWorkSpace\Kotlin\LiveBroadcastingDemo\LibraryDialog\src\main\AndroidManifest.xml

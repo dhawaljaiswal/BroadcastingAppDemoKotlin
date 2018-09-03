@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_gravity="top|left">
+
+	<TextView android:id="@+id/chat_line_timeview"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:textColor="#FFBBBBBB"
+		android:textColorHighlight="#FFBBBBBB"
+		android:paddingLeft="5dp"
+		android:paddingRight="5dp"
+		android:paddingTop="1dp"
+		android:paddingBottom="1dp" />
+
+	<TextView android:id="@+id/chat_line_textview"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@id/chat_line_timeview"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:textColor="@android:color/white"
+		android:textColorHighlight="@android:color/white"
+		android:autoLink="web|email"
+		android:paddingLeft="0px"
+		android:paddingRight="5dp"
+		android:paddingTop="1dp"
+		android:paddingBottom="1dp" />
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">LiveBroadcastingDemo</string>
+    <string name="swipe_label">Swipe!</string>
+    <string name="swipe_left_label">Swipe left!</string>
+    <string name="swipe_right_label">Swipe right!</string>
+    <string name="swipe_up_label">Swipe up!</string>
+    <string name="swipe_down_label">Swipe down!</string>
+    <string name="open">Open</string>
+    <string name="upload_file">Upload file</string>
+    <string name="toggle_torch">Toggle torch</string>
+    <string name="focus">Focus</string>
+    <string name="about">About</string>
+    <string name="switch_camera">Switch camera</string>
+    <string name="stop_talkback">Stop talkback</string>
+    <string name="photo">Photo</string>
+    <string name="broadcast">Broadcast</string>
+</resources>

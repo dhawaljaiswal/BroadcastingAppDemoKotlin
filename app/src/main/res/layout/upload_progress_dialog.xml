@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+	<TextView android:id="@+id/UploadStatusText"
+		android:layout_margin="15dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content" />
+	<ProgressBar android:id="@+id/UploadProgressBar"
+		style="@android:style/Widget.ProgressBar.Horizontal"
+		android:layout_margin="15dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:max="1000"
+		android:indeterminate="false" />
+</LinearLayout>
